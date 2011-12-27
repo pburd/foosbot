@@ -11,6 +11,7 @@ cfgparser = SafeConfigParser()
 cfgparser.read('foosbot.cfg')
 
 def generate_teams(players):
+    """ DUDE WTF!!!!"""
     players = copy.copy(players)
     random.shuffle(players)
     return players
